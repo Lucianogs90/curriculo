@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: #718377;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu a{
+    color: azure;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: goldenrod;
+}
+
+.titulo{
+    color: #ccc;
+    text-align: center;
+}
+
