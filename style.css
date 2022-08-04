@@ -6,6 +6,21 @@
 .cabecalho{
     background-color: #98336C;
     background: linear-gradient(90deg, #486288 0%, #98336C 100%);
+    text-align: center;
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+.social{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.social img{
+    margin-right:;
 }
 
 .menu{
