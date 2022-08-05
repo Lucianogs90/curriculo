@@ -5,7 +5,7 @@
 
 .cabecalho{
     background-color: #98336C;
-    background: linear-gradient(90deg, #486288a2 0%, rgba(152, 51, 108, 0.76) 100%), url("images/fundo.jpg");
+    background: linear-gradient(90deg, #4862888a 0%, #98336c75 100%), url("images/fundo.jpg");
     text-align: center;
 
 }
@@ -31,10 +31,7 @@
 
 .github, .gitlab, .linkedin, .instagram{
     margin: 15px;
-}
-
-.fundo{
-
+    text-decoration: none;
 }
 
 .menu{
@@ -42,17 +39,17 @@
     padding: 15px;
 }
 
-.menu > li{
+.menu li{
     display: inline;
     margin-right: 15px;
 }
 
-.menu > a{
+.menu a{
     color: azure;
     text-decoration: none;
 }
 
-.menu > a:hover{
+.menu a:hover{
     color: goldenrod;
 }
 
