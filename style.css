@@ -5,44 +5,54 @@
 
 .cabecalho{
     background-color: #98336C;
-    background: linear-gradient(90deg, #486288 0%, #98336C 100%);
+    background: linear-gradient(90deg, #486288a2 0%, rgba(152, 51, 108, 0.76) 100%), url("images/fundo.jpg");
     text-align: center;
+
 }
 
 .foto{
+    width: 122px;
+    height: 122px;
     border-radius: 50%;
-}
-
-.social{
-    display: flex;
-    border: 1px solid red;
-    justify-content: center;
-}
-
-.social img{
-    margin-right:;
-}
-
-.menu{
-    background-color: #718377;
-}
-
-.menu li{
-    display: inline;
-    margin-right: 15px;
-}
-
-.menu a{
-    color: azure;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    color: goldenrod;
+    margin: 20px;
+    margin-top: 30px;
+    border: 1px solid #486288;
 }
 
 .titulo{
     color: #ccc;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.social > a > img{
+    padding: 20px;
+}
+
+.github, .gitlab, .linkedin, .instagram{
+    margin: 15px;
+}
+
+.fundo{
+
+}
+
+.menu{
+    background-color: #718377;
+    padding: 15px;
+}
+
+.menu > li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu > a{
+    color: azure;
+    text-decoration: none;
+}
+
+.menu > a:hover{
+    color: goldenrod;
 }
 
