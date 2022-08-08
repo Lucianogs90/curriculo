@@ -42,6 +42,7 @@
 .menu li{
     display: inline;
     margin-right: 15px;
+    list-style: none;
 }
 
 .menu a{
@@ -55,7 +56,15 @@
 
 .conteudo{
     margin-left: 5%;
+}
+
+.conteudo li{
+    list-style: none;
+}
+
+#galeria li{
     display: inline-block;
+    padding-right: 2%;
 }
 
 .subtitulo{
